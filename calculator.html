@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="calculator.css">
+        <title>calculator</title>
+    </head>
+<body>
+
+<div class="main">
+  <table>
+      <tr>
+          <input type="text" name="" id="input">
+
+      </tr>
+      <tr>
+          <td colspan="2"><button onclick="clearResult()">c</button></td>
+          <td><button  onclick="deleteChar()">R</button></td>
+          <td><button onclick="number('/')">/</button></td>
+        
+      </tr>
+      <tr>
+          <td><button onclick="number('7')">7</button></td>
+          <td><button onclick="number('8')">8</button></td>
+          <td><button onclick="number('9')">9</button></td>
+          <td><button onclick="number('*')">*</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="number('4')">4</button></td>
+        <td><button onclick="number('5')">5</button></td>
+        <td><button onclick="number('6')">6</button></td>
+        <td><button onclick="number('+')">+</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="number('1')">1</button></td>
+        <td><button onclick="number('2')">2</button></td>
+        <td><button onclick="number('3')">3</button></td>
+        <td><button  onclick="number('-')">-</button></td>
+    </tr>
+    <tr>
+        <td><button  onclick="number('0')">0</button></td>
+        <td><button  onclick="number('.')">.</button></td>
+        <td><button  onclick="result()">=</button></td>
+        <td><button  onclick="number('%')">%</button></td>
+    </tr>
+  </table>
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
